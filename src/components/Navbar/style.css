@@ -1,0 +1,20 @@
+.container-nav{
+    height: 54px;
+    background-color: #FFE600;
+   /*  display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   align-items: flex-start; */
+}
+
+.container-logo{
+    display: inline; 
+    line-height: 54px;
+    max-width: 60px;
+}
+.logo-nav{
+    width: 58px ;
+    height: 38px;
+    box-sizing: border-box;
+    margin-left: 19%; 
+}

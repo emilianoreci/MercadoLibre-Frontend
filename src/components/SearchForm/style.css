@@ -1,0 +1,34 @@
+.containerInput{
+    display: inline;
+}
+
+.inputText{
+    display: inline;
+    border-radius: 0px;
+    background-color: #fff;
+    border: 0px;
+    /* box-shadow: 0px 1px rgb(201, 198, 198); */
+    box-shadow:  0 1px 2px 0 rgba(0,0,0,.2);
+    max-width: 500px;
+}
+.inputText::placeholder{
+    opacity: .4;
+    font-size: 15px;
+}
+
+.btn{
+    margin-bottom: 3px;
+    border: 0.1px solid transparent;
+    border-radius: 0px;
+    background-color: #fff;
+    border-left: 1px solid  rgba(0,0,0,.1);
+   /*  box-shadow: 0px 1px rgb(201, 198,198); */
+   box-shadow:  0 1px 2px 0 rgba(0,0,0,.2);
+}
+
+
+.inputText:focus{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
